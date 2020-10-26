@@ -23,7 +23,7 @@ h3{
 .content_wrap{
   max-width: 1000px;
   width:80%;
-  margin:0 auto;
+  margin: auto;
   height: auto;
   background-color: white;
 }
@@ -31,6 +31,8 @@ h3{
 .clearfix{
   clear: both;
 }
+
+
            /* nav */
 
   .flex-item{
@@ -76,6 +78,7 @@ a{
 
 hr{
 border: 2px solid lightgrey;
+width:auto;
 }
 
 .home_about_margin{
@@ -92,8 +95,15 @@ padding-left:10px;
 
            /* main_menu */
 
-.item4{
-  margin:0 0 100px 40px;
+ .img_main{
+   max-width: 100%;
+   width: 1000px;
+ }
+
+
+.item4  {
+  margin-top:30px;
+  margin-bottom: 100px;
 }
 
 .article_follow_us_a{
@@ -103,6 +113,12 @@ padding-left:10px;
   margin: 5px;
 }
 
+.article_follow_us > p{
+  margin-top: 40px;
+}
+
+.
+
 .flex-item5{
   flex:1 4;
 }
@@ -110,6 +126,7 @@ padding-left:10px;
 .padding1{
   padding: 9px;
   margin-right: 10px;
+
   border: none;
   width: 270px;
 }
@@ -130,14 +147,14 @@ padding-left:10px;
 }
 
 .background_img{
-  max-width: 1000px;
-  width:100%;
+  /* max-width: 1000px; */
+  max-width:100%;
   height: auto;
 }
 
 .flex-item2{
   flex: 2 1 900px;
-  width: 300px;
+  ,max-width:100% ;
   height: auto;
   justify-content: space-between;
 }
@@ -289,13 +306,35 @@ background-color: skyblue;
        padding: 8px;
      }
 
+     .item4{
+       margin-left:30px;
+     }
+
      .flex-container5{
        border: 1px solid whitesmoke;
        background-color: whitesmoke;
        background-size:contain;
        height: 150px;
      }
+
+     .padding1{
+       margin-left: 250px;
+     }
+
+     h4::after{
+       position: absolute;
+         top:;
+         width: 13%;
+         height: 1px;
+         content: "";
+         margin-top: 10px;
+         background-color: #dddd;
+         margin-left: 15px;
+       }
+
   }
+
+
 
        @media screen and (max-width:1214px){
   .flex-item > ul{
@@ -319,5 +358,13 @@ background-color: skyblue;
 }
     .container5 > p{
       margin-bottom: 0;
+    }
+
+    .tags_cloud_link{
+      width: 300px;
+    }
+
+    .padding1{
+      width:150px;
     }
 }
